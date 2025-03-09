@@ -1,0 +1,106 @@
+h1 {
+    font-size: clamp(1.5rem, 5vw, 3rem); /*clamp er en funktion der dynamisk tilpasser størrelsen imellem min og max*/
+    color: red;
+}
+
+h2{
+    font-size:2rem; /*rem er relativt. 2 rem betyder at det skal være 2.5 gange større en grundstørrelsen*/
+}
+
+.blue{
+    color: blue;
+}
+
+.italics{
+    font-style: italic;
+}
+
+.h1-orange-bold{
+    font-size: 4rem;
+    color: orange;
+    font-weight: bold;
+}
+
+.orange-line {
+    border: none;
+    height: 7px;
+    background-color: #FBB040;
+    margin-bottom:20px;
+}
+
+#footer-line{
+    border: none;
+    height: 7px;
+    background-color: #FBB040;
+}
+
+
+/* sideelementer */
+
+
+
+
+footer{
+    color: white;
+    font-size: 0.75rem;
+
+}
+
+
+/* wireframe (grov opdeling af siden - kan også kaldes "grid") */
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#page{
+    background-color: #002E6D;
+    width: 100%;
+    max-width: 800px;
+}
+
+.header-image{
+    width: 100%;
+    max-width: 800px;
+}
+
+.main-image{
+    width: 100%;
+    max-width: 800px;
+    max-height: 1200px;
+    margin-top: 20px;
+}
+
+
+/* Navigation */
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul{
+    color: white;
+    font-size: 2rem;
+    list-style: none;
+    display: flex;
+
+    gap: 40px;
+}
+
+header nav ul li{
+    border: 1px solid silver;
+    padding: 10px;
+    border-radius: 5px;/* runde hjørner */
+
+}
+
+
+@media (max-width: 600px){
+    header nav ul{
+        flex-direction: column;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+}
