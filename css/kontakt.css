@@ -1,0 +1,140 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: clamp(1.5rem, 10vw, 4rem); /*clamp er en funktion der dynamisk tilpasser størrelsen imellem min og max*/
+    color: white;
+}
+
+h2{
+    font-size:2rem;
+}
+
+.blue{
+    color: blue;
+}
+
+.italics{
+    font-style: italic;
+}
+
+.h1-orange-bold{
+    font-size: 4rem;
+    color: orange;
+    font-weight: bold;
+}
+
+#list{
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+
+#login{
+    font-size: clamp(1.5rem, 5vw, 3rem);
+}
+
+
+.orange-line {
+    border: none;
+    height: 7px;
+    background-color: #FBB040;
+    margin-bottom:20px;
+}
+
+.pink-line {
+    border: none;
+    height: 7px;
+    background-color: #D414B7;
+    margin-bottom:20px;
+}
+
+#footer-line{
+    border: none;
+    height: 7px;
+    background-color: #FBB040;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.kontakt-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size: 3rem;
+}
+
+
+
+
+/* sideelementer */
+
+
+
+
+footer{
+    color: white;
+    font-size: 0.75rem;
+}
+
+
+/* wireframe (grov opdeling af siden - kan også kaldes "grid") */
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#page{
+    background-color: #002E6D;
+    width: 100%;
+    max-width: 800px;
+}
+
+.header-image{
+    width: 100%;
+    max-width: 800px;
+}
+
+.main-image{
+    width: 90%;
+    height: 90%;
+    max-width: 800px;
+}
+#laugh{
+    display:flex;
+    justify-content: center;
+}
+
+
+/* Navigation */
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul{
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    list-style: none;
+    display: flex;
+    gap: 100px;
+}
+
+
+
+@media (max-width: 600px){
+    header nav ul{
+        flex-direction: column;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+}
