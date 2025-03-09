@@ -28,6 +28,13 @@ h2{
     margin-bottom:20px;
 }
 
+.pink-line {
+    border: none;
+    height: 7px;
+    background-color: #D414B7;
+    margin-bottom:20px;
+}
+
 #footer-line{
     border: none;
     height: 7px;
@@ -69,6 +76,7 @@ body{
     max-width: 800px;
     max-height: 1200px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
