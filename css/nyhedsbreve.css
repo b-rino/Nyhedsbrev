@@ -54,26 +54,29 @@ h2{
     background-color: #FBB040;
 }
 
-.button-container{
+.flex-container{
     display: flex;
-    justify-content: center;
-}
-
-button[type=submit]{
-    background-color: #1027F5;
     color: white;
-    font-size: 1.5rem;
-    padding: 14px 20px;
-    border: none;
-    border-radius: 20px;
-    width: 200px;
-    height: 60px;
-    cursor: pointer;
+    font-size: 3rem;
+    text-decoration: underline;
+    flex-direction: column;
+    align-items: center;
 }
 
-#list li{
-    line-height: 2;
+.flex-container p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.75;
 }
+
+.gem{
+    font-size: 1.5rem;
+    color: #FBB040;
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+}
+
 
 
 /* sideelementer */
@@ -84,7 +87,6 @@ button[type=submit]{
 footer{
     color: white;
     font-size: 0.75rem;
-
 }
 
 
